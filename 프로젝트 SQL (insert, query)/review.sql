@@ -1,8 +1,8 @@
-INSERT INTO `stores` (`owner_id`, `store_name`, `logo_url`, `category`, `opening_time`, `closing_time`, `break_start_time`, `break_end_time`, `address`, `description`)
-VALUES 
-(1, '치킨집 A', '/images/store1.png', '치킨', '11:00', '22:00', '14:00', '15:00', '서울시 강남구', '맛있는 치킨집'),
-(2, '피자집 B', '/images/store2.png', '피자', '10:00', '23:00', '14:30', '15:30', '서울시 서초구', '피자 전문점'),
-(3, '한식당 C', '/images/store3.png', '한식', '09:00', '21:00', '12:00', '13:00', '서울시 송파구', '전통 한식당');
+-- INSERT INTO `stores` (`owner_id`, `store_name`, `logo_url`, `category`, `opening_time`, `closing_time`, `break_start_time`, `break_end_time`, `address`, `description`)
+-- VALUES 
+-- (1, '치킨집 A', '/images/store1.png', '치킨', '11:00', '22:00', '14:00', '15:00', '서울시 강남구', '맛있는 치킨집'),
+-- (2, '피자집 B', '/images/store2.png', '피자', '10:00', '23:00', '14:30', '15:30', '서울시 서초구', '피자 전문점'),
+-- (3, '한식당 C', '/images/store3.png', '한식', '09:00', '21:00', '12:00', '13:00', '서울시 송파구', '전통 한식당');
 
 INSERT INTO `menu_categories` (`store_id`, `menu_category`, `menu_category_sequence`) 
 VALUES 
