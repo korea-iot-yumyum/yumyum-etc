@@ -6,10 +6,10 @@
 -- (default, 'user2', 'password2!!', 'bbb', 'bbb@exam.com', '01056785678', '0987654321', true, true),
 -- (default, 'user3', 'password3!!', 'ccc', 'ccc@exam.com', '01090129012', '1122334455', true, true);
 
-insert into stores values
-(default, 1, 'a_store', 'img~~~', '치킨', now(), now(), null, null, 'aaa시 aaa구 aaa동', '치킨 가게 입니다.'),
-(default, 2, 'b_store', "img~~~", '분식', now(), now(), null, null, 'bbb시 bbb구 bbb동', '분식 가게 입니다.'),
-(default, 3, 'c_store', 'img~~~', '양식', now(), now(), null, null, 'ccc시 ccc구 ccc동', '양식 가게 입니다.');
+-- insert into stores values
+-- (default, 1, 'a_store', 'img~~~', '치킨', now(), now(), null, null, 'aaa시 aaa구 aaa동', '치킨 가게 입니다.'),
+-- (default, 2, 'b_store', "img~~~", '분식', now(), now(), null, null, 'bbb시 bbb구 bbb동', '분식 가게 입니다.'),
+-- (default, 3, 'c_store', 'img~~~', '양식', now(), now(), null, null, 'ccc시 ccc구 ccc동', '양식 가게 입니다.');
 
 select * from orders;
 insert into orders values 
